@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#searchBar {
+    width: 80%;
+    padding: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.video-grid div {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.quality-controls {
+    margin-top: 15px;
+}
+
+.comments-list {
+    margin: 10px 0;
+}
+
+#commentInput {
+    width: 100%;
+    height: 50px;
+}
+
+#submitComment {
+    padding: 10px;
+}
